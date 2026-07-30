@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Appointment_EmptyForm</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e44b760a-f8ad-477c-8d02-a08d6e6f1596</testCaseGuid>
+</TestCaseEntity>
