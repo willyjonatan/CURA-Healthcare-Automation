@@ -47,38 +47,39 @@ Pengujian dilakukan dengan pendekatan **Page Object Model (POM)** untuk memastik
 
 ---
 
-## Struktur Proyek
+# Struktur Proyek CURA Healthcare Automation
 
-Struktur direktori proyek diorganisir mengikuti prinsip **Page Object Model** untuk menjaga kode tetap bersih dan modular.
+Struktur direktori proyek ini diorganisir mengikuti prinsip **Page Object Model (POM)** untuk menjaga kode tetap bersih, terstruktur, dan mudah dipelihara (modular).
 
+```text
 CURA_Healthcare_Automation/
 │
-├── 📄 Documentation/ # Dokumentasi pengujian
-│ ├── Test Case Documentation.xlsx # Daftar dan skenario test case
-│ └── Result.pdf # Laporan hasil eksekusi pengujian
+├── 📄 Documentation/                # Dokumentasi pengujian
+│   ├── 📊 Test Case Documentation.xlsx  # Daftar dan skenario test case
+│   └── 📄 Result.pdf                   # Laporan hasil eksekusi pengujian
 │
-├── ⚙️ Profiles/
-│ └── default # Konfigurasi Global Variables
+├── 🧪 Test Cases/                   # Kumpulan skrip test case
+│   ├── TC_Login_Valid1
+│   ├── TC_Login_Invalid
+│   ├── TC_Make_Appointment
+│   ├── TC_Appointment_EmptyForm
+│   └── TC_Appointment_DataDriven
 │
-├── 🧪 Test Cases/ # Kumpulan skrip test case
-│ ├── TC_Login_Valid1
-│ ├── TC_Login_Invalid
-│ ├── TC_Make_Appointment
-│ ├── TC_Appointment_EmptyForm
-│ └── TC_Appointment_DataDriven
+├── ⚙️ Profiles/                     # Konfigurasi Global Variables
+│   └── default
 │
-├── 📦 Object Repository/ # Objek-objek UI (Page Object Model)
-│ ├── Page_Homepage
-│ ├── Page_Login
-│ ├── Page_Appointment
-│ ├── Page_Confirmation
-│ └── Page_History
+├── 🗂️ Object Repository/             # Objek-objek UI (Page Object Model)
+│   ├── Page_Homepage
+│   ├── Page_Login
+│   ├── Page_Appointment
+│   ├── Page_Confirmation
+│   └── Page_History
 │
-├── 🔥 Test Suites/
-│ └── TS_Regression_Suite # Suite untuk menjalankan semua test case
+├── 🔥 Test Suites/                  # Suite untuk menjalankan semua test case
+│   └── TS_Regression_Suite
 │
-├── 📊 Data Files/
-│ └── AppointmentTestData.xlsx # Sumber data untuk pengujian data-driven
+└── 📊 Data Files/                    # Sumber data untuk pengujian data-driven
+    └── AppointmentTestData.xlsx
 
 
 
