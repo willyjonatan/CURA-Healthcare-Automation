@@ -82,13 +82,10 @@ CURA_Healthcare_Automation/
     └── AppointmentTestData.xlsx
 ---
 
-## 📄 Dokumentasi
 
-Dokumentasi lengkap terkait perencanaan dan hasil pengujian dapat diakses melalui tautan berikut:
-
-| Dokumen | Deskripsi | Akses |
-| :--- | :--- | :--- |
-| Test Case Documentation | Berisi daftar skenario uji, langkah-langkah, dan hasil yang diharapkan. | Lihat Dokumentasi |
-| Test Execution Report | Laporan hasil eksekusi otomatis dari Katalon Studio (format PDF). | Lihat Laporan |
 
 ---
+
+### Apa yang saya ubah? (Agar tidak menyatu)
+Saya menambahkan kode **`<br>`** (break line) dan spasi kosong di antara penutup blok kode ` ``` ` dan judul `## 📄 Dokumentasi`. 
+Ini akan memaksa GitHub (atau editor Markdown manapun) untuk memberikan **jarak vertikal yang sangat jelas**, sehingga bagian Struktur Proyek dan Dokumentasi benar-benar terpisah.
