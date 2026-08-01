@@ -45,16 +45,6 @@ Pengujian dilakukan dengan pendekatan Page Object Model (POM) untuk memastikan k
 | **Microsoft Excel** | Menyimpan data eksternal untuk pengujian *data-driven*. |
 
     
----
-
-## 📄 Dokumentasi
-
-Dokumentasi lengkap terkait perencanaan dan hasil pengujian dapat diakses melalui tautan berikut:
-
-| **Dokumen** | **Deskripsi** | **Akses** |
-| :--- | :--- | :--- |
-| **Test Case Documentation** | Berisi daftar skenario uji, langkah-langkah, dan hasil yang diharapkan. | [📥 Test Case Documentation.xlsx](./Documentation/Test%20Case%20Documentation.xlsx) |
-| **Test Execution Report** | Laporan hasil eksekusi otomatis dari Katalon Studio (format PDF). | [📥 Lihat Laporan](./Documentation/Result.pdf) |
 
 ---
 
@@ -88,4 +78,15 @@ CURA_Healthcare_Automation/
 └── Data Files/                    # Sumber data untuk pengujian data-driven
     └── AppointmentTestData.xlsx
 ```
+---
+
+## 📄 Dokumentasi
+
+Dokumentasi lengkap terkait perencanaan dan hasil pengujian dapat diakses melalui tautan berikut:
+
+| **Dokumen** | **Deskripsi** | **Akses** |
+| :--- | :--- | :--- |
+| **Test Case Documentation** | Berisi daftar skenario uji, langkah-langkah, dan hasil yang diharapkan. | [📥 Test Case Documentation.xlsx](./Documentation/Test%20Case%20Documentation.xlsx) |
+| **Test Execution Report** | Laporan hasil eksekusi otomatis dari Katalon Studio (format PDF). | [📥 Lihat Laporan](./Documentation/Result.pdf) |
+
 ---
