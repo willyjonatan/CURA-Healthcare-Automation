@@ -50,6 +50,11 @@ Pengujian dilakukan dengan pendekatan Page Object Model (POM) untuk memastikan k
 
 Struktur direktori proyek ini diorganisir mengikuti prinsip Page Object Model (POM) untuk menjaga kode tetap bersih, terstruktur, dan mudah dipelihara (modular).
 
+```
+# Struktur Proyek CURA Healthcare Automation
+
+Struktur direktori proyek ini diorganisir mengikuti prinsip Page Object Model (POM) untuk menjaga kode tetap bersih, terstruktur, dan mudah dipelihara (modular).
+
 ```text
 CURA_Healthcare_Automation/
 │
@@ -75,7 +80,6 @@ CURA_Healthcare_Automation/
 │
 └── Data Files/                    # Sumber data untuk pengujian data-driven
     └── AppointmentTestData.xlsx
-
 ---
 
 ## 📄 Dokumentasi
@@ -86,3 +90,5 @@ Dokumentasi lengkap terkait perencanaan dan hasil pengujian dapat diakses melalu
 | :--- | :--- | :--- |
 | Test Case Documentation | Berisi daftar skenario uji, langkah-langkah, dan hasil yang diharapkan. | Lihat Dokumentasi |
 | Test Execution Report | Laporan hasil eksekusi otomatis dari Katalon Studio (format PDF). | Lihat Laporan |
+
+---
