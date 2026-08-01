@@ -46,40 +46,35 @@ Pengujian dilakukan dengan pendekatan Page Object Model (POM) untuk memastikan k
 
 ---
 
-# Struktur Proyek CURA Healthcare Automation
+## Struktur Proyek CURA Healthcare Automation
 
-Struktur direktori proyek ini diorganisir mengikuti prinsip **Page Object Model (POM)** untuk menjaga kode tetap bersih, terstruktur, dan mudah dipelihara (modular).
+Struktur direktori proyek ini diorganisir mengikuti prinsip Page Object Model (POM) untuk menjaga kode tetap bersih, terstruktur, dan mudah dipelihara (modular).
 
 ```text
 CURA_Healthcare_Automation/
 │
-├── 📄 Documentation/                # Dokumentasi pengujian
-│   ├── 📊 Test Case Documentation.xlsx  # Daftar dan skenario test case
-│   └── 📄 Result.pdf                   # Laporan hasil eksekusi pengujian
-│
-├── 🧪 Test Cases/                   # Kumpulan skrip test case
+├── Test Cases/                   # Kumpulan skrip test case
 │   ├── TC_Login_Valid1
 │   ├── TC_Login_Invalid
 │   ├── TC_Make_Appointment
 │   ├── TC_Appointment_EmptyForm
 │   └── TC_Appointment_DataDriven
 │
-├── ⚙️ Profiles/                     # Konfigurasi Global Variables
+├── Profiles/                     # Konfigurasi Global Variables
 │   └── default
 │
-├── 🗂️ Object Repository/             # Objek-objek UI (Page Object Model)
+├── Object Repository/             # Objek-objek UI (Page Object Model)
 │   ├── Page_Homepage
 │   ├── Page_Login
 │   ├── Page_Appointment
 │   ├── Page_Confirmation
 │   └── Page_History
 │
-├── 🔥 Test Suites/                  # Suite untuk menjalankan semua test case
+├── Test Suites/                  # Suite untuk menjalankan semua test case
 │   └── TS_Regression_Suite
 │
-└── 📊 Data Files/                    # Sumber data untuk pengujian data-driven
+└── Data Files/                    # Sumber data untuk pengujian data-driven
     └── AppointmentTestData.xlsx
-
 
 ---
 
@@ -91,5 +86,3 @@ Dokumentasi lengkap terkait perencanaan dan hasil pengujian dapat diakses melalu
 | :--- | :--- | :--- |
 | Test Case Documentation | Berisi daftar skenario uji, langkah-langkah, dan hasil yang diharapkan. | Lihat Dokumentasi |
 | Test Execution Report | Laporan hasil eksekusi otomatis dari Katalon Studio (format PDF). | Lihat Laporan |
-
-> **Catatan:** Dokumentasi tersedia dalam folder `Documentation/` di dalam direktori proyek.
