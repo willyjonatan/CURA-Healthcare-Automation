@@ -45,7 +45,7 @@ Pengujian dilakukan dengan pendekatan Page Object Model (POM) untuk memastikan k
 | **Microsoft Excel** | Menyimpan data eksternal untuk pengujian *data-driven*. |
 
 
-```
+---
 ## Struktur Proyek CURA Healthcare Automation
 
 Struktur direktori proyek ini diorganisir mengikuti prinsip Page Object Model (POM) untuk menjaga kode tetap bersih, terstruktur, dan mudah dipelihara (modular).
@@ -74,10 +74,9 @@ CURA_Healthcare_Automation/
 │
 └── Data Files/                    # Sumber data untuk pengujian data-driven
     └── AppointmentTestData.xlsx
+    
 ---
 
-
----
 
 ## 📄 Dokumentasi
 
