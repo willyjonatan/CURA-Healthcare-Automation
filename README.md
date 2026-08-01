@@ -53,7 +53,7 @@ Dokumentasi lengkap terkait perencanaan dan hasil pengujian dapat diakses melalu
 
 | **Dokumen** | **Deskripsi** | **Akses** |
 | :--- | :--- | :--- |
-| **Test Case Documentation** | Berisi daftar skenario uji, langkah-langkah, dan hasil yang diharapkan. | [📥 Lihat Dokumen](./Documentation/Test%20Case%20Documentation.xlsx) |
+| **Test Case Documentation** | Berisi daftar skenario uji, langkah-langkah, dan hasil yang diharapkan. | [📥 Test_Case_Documentation.xlsx](./Documentation/Test_Case_Documentation.xlsx) |
 | **Test Execution Report** | Laporan hasil eksekusi otomatis dari Katalon Studio (format PDF). | [📥 Lihat Laporan](./Documentation/Result.pdf) |
 
 ---
@@ -87,4 +87,4 @@ CURA_Healthcare_Automation/
 │
 └── Data Files/                    # Sumber data untuk pengujian data-driven
     └── AppointmentTestData.xlsx
----text
+---
