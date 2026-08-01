@@ -11,8 +11,7 @@
 
 Proyek ini merupakan **proyek automation testing** untuk aplikasi web [CURA Healthcare Service](https://katalon-demo-cura.herokuapp.com/). Seluruh skenario pengujian dirancang dan dieksekusi secara otomatis menggunakan **Katalon Studio**, tanpa intervensi manual.
 
-Pengujian dilakukan dengan pendekatan **Page Object Model (POM)** untuk memastikan kemudahan perawatan dan skalabilitas skrip. Pengujian mencakup validasi fungsionalitas utama aplikasi, seperti proses login, pembuatan janji temu, dan verifikasi histori, dengan menerapkan berbagai strategi pengujian, termasuk positif, negatif, validasi, dan *data-driven*.
----
+Pengujian dilakukan dengan pendekatan Page Object Model (POM) untuk memastikan kemudahan perawatan dan skalabilitas skrip. Pengujian mencakup validasi fungsionalitas utama aplikasi, seperti proses login, pembuatan janji temu, dan verifikasi histori, dengan menerapkan berbagai strategi pengujian, termasuk positif, negatif, validasi, dan data-driven.
 
 ## Tujuan Pengujian
 
@@ -82,15 +81,15 @@ CURA_Healthcare_Automation/
     └── AppointmentTestData.xlsx
 
 
-
 ---
 
 ## 📄 Dokumentasi
 
 Dokumentasi lengkap terkait perencanaan dan hasil pengujian dapat diakses melalui tautan berikut:
 
-| **Dokumen** | **Deskripsi** | **Akses** |
+| Dokumen | Deskripsi | Akses |
 | :--- | :--- | :--- |
-| **Test Case Documentation** | Berisi daftar skenario uji, langkah-langkah, dan hasil yang diharapkan. | [📥 Lihat Dokumen](./Documentation/Test%20Case%20Documentation.xlsx) |
-| **Test Execution Report** | Laporan hasil eksekusi otomatis dari Katalon Studio (format PDF). | [📥 Lihat Laporan](./Documentation/Result.pdf) |
+| Test Case Documentation | Berisi daftar skenario uji, langkah-langkah, dan hasil yang diharapkan. | Lihat Dokumentasi |
+| Test Execution Report | Laporan hasil eksekusi otomatis dari Katalon Studio (format PDF). | Lihat Laporan |
 
+> **Catatan:** Dokumentasi tersedia dalam folder `Documentation/` di dalam direktori proyek.
