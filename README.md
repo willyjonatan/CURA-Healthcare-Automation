@@ -44,11 +44,6 @@ Pengujian dilakukan dengan pendekatan Page Object Model (POM) untuk memastikan k
 | **Git & GitHub** | Kontrol versi dan repositori kode. |
 | **Microsoft Excel** | Menyimpan data eksternal untuk pengujian *data-driven*. |
 
----
-
-## Struktur Proyek CURA Healthcare Automation
-
-Struktur direktori proyek ini diorganisir mengikuti prinsip Page Object Model (POM) untuk menjaga kode tetap bersih, terstruktur, dan mudah dipelihara (modular).
 
 ```
 # Struktur Proyek CURA Healthcare Automation
@@ -83,9 +78,3 @@ CURA_Healthcare_Automation/
 ---
 
 
-
----
-
-### Apa yang saya ubah? (Agar tidak menyatu)
-Saya menambahkan kode **`<br>`** (break line) dan spasi kosong di antara penutup blok kode ` ``` ` dan judul `## 📄 Dokumentasi`. 
-Ini akan memaksa GitHub (atau editor Markdown manapun) untuk memberikan **jarak vertikal yang sangat jelas**, sehingga bagian Struktur Proyek dan Dokumentasi benar-benar terpisah.
